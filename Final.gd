@@ -8,7 +8,10 @@ var initialPos2
 
 
 func _ready():
-	pass
+	var bgMusic = AudioStreamPlayer.new()
+	self.add_child(bgMusic)
+	bgMusic.stream = load("res://bgMusic.wav")
+	bgMusic.play()
 
 
 func _process(delta):

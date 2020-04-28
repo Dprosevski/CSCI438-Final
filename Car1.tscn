@@ -105,7 +105,7 @@ surfaces/0 = {
 }
 
 [node name="VehicleBody" type="VehicleBody"]
-mass = 169.594
+mass = 54.6388
 continuous_cd = true
 contacts_reported = 1
 
@@ -125,12 +125,12 @@ transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 1.55, 0
 use_as_traction = true
 wheel_roll_influence = 0.01
 wheel_radius = 0.7
-wheel_friction_slip = 6.0
-suspension_travel = 0.5
+wheel_friction_slip = 10.0
+suspension_travel = 0.1
 suspension_stiffness = 60.0
 suspension_max_force = 8000.0
-damping_compression = 10.0
-damping_relaxation = 10.0
+damping_compression = 0.8
+damping_relaxation = 0.9
 
 [node name="Cylinder" type="MeshInstance" parent="backR"]
 transform = Transform( 2.80938e-07, -0.973, -1.05697e-07, -0.7, -3.90503e-07, -5.28485e-08, 5.28485e-08, 1.46919e-07, -0.7, -1.1011, 1.86768, 0 )
@@ -144,11 +144,11 @@ use_as_steering = true
 wheel_roll_influence = 0.0
 wheel_radius = 0.7
 wheel_friction_slip = 80.0
-suspension_travel = 0.5
-suspension_stiffness = 40.0
+suspension_travel = 0.1
+suspension_stiffness = 80.0
 suspension_max_force = 8000.0
-damping_compression = 10.0
-damping_relaxation = 10.0
+damping_compression = 0.5
+damping_relaxation = 0.7
 
 [node name="Cylinder003" type="MeshInstance" parent="frontR"]
 transform = Transform( 2.80938e-07, -0.973, -1.05697e-07, -0.7, -3.90503e-07, -5.28485e-08, 5.28485e-08, 1.46919e-07, -0.7, -1.07656, 1.868, 0 )
@@ -160,12 +160,12 @@ transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, -1.517,
 use_as_traction = true
 wheel_roll_influence = 0.01
 wheel_radius = 0.7
-wheel_friction_slip = 6.0
-suspension_travel = 0.5
+wheel_friction_slip = 10.0
+suspension_travel = 0.1
 suspension_stiffness = 60.0
 suspension_max_force = 8000.0
-damping_compression = 10.0
-damping_relaxation = 10.0
+damping_compression = 0.8
+damping_relaxation = 0.9
 
 [node name="Cylinder002" type="MeshInstance" parent="backL"]
 transform = Transform( -3.0598e-08, 0.973, 0, -0.7, -4.25312e-08, 0, 0, 0, 0.7, 1.03107, 1.868, 0 )
@@ -179,11 +179,11 @@ use_as_steering = true
 wheel_roll_influence = 0.0
 wheel_radius = 0.7
 wheel_friction_slip = 80.0
-suspension_travel = 0.5
-suspension_stiffness = 40.0
+suspension_travel = 0.1
+suspension_stiffness = 80.0
 suspension_max_force = 8000.0
-damping_compression = 10.0
-damping_relaxation = 10.0
+damping_compression = 0.5
+damping_relaxation = 0.7
 
 [node name="Cylinder001" type="MeshInstance" parent="frontL"]
 transform = Transform( -3.0598e-08, 0.974, 0, -0.7, -4.25749e-08, 0, 0, 0, 0.7, 1.09833, 1.868, 0 )

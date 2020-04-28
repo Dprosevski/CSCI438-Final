@@ -1,6 +1,7 @@
 extends Label
 
 
+
 func _ready():
 	text = "0 mph"
 	pass

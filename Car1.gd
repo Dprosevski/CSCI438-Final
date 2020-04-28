@@ -2,9 +2,9 @@ extends VehicleBody
 
 signal speedChange
 
-export var SPEED1 = 500
-export var initialPos = Vector3(0,0,0)
-export var hp1 = 1000
+export var SPEED1 = 200
+export var initialPos = Vector3(0,1,0)
+export var hp1 = 500
 
 var once = false
 

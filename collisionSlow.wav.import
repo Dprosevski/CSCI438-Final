@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/collisionSlow.wav-29c63b4118f4bdc045a1a0ccbc655518.sample"
+
+[deps]
+
+source_file="res://collisionSlow.wav"
+dest_files=[ "res://.import/collisionSlow.wav-29c63b4118f4bdc045a1a0ccbc655518.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
